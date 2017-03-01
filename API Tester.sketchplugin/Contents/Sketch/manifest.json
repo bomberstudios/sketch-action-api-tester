@@ -1,0 +1,20 @@
+{
+  "name" : "API Tester",
+  "version" : "1.0",
+  "description" : "A plugin to listen to all the events in the Action API",
+  "author" : "Ale Muñoz",
+  "authorEmail" : "ale@sketchapp.com",
+  "identifier" : "com.bohemiancoding.sketch.4810d8b7-d56f-4831-9846-1367ed627056",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "API Tester",
+      "handlers" : {
+        "actions": {
+            "*": "onAction"
+        }
+      },
+      "identifier" : "com.bohemiancoding.sketch.api-tester"
+    }
+  ]
+}

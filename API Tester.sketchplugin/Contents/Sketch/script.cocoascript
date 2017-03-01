@@ -1,0 +1,4 @@
+var onAction = function(context){
+  log('Action: ' + context.action)
+  log(context)
+}
