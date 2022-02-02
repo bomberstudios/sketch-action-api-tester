@@ -1,4 +1,6 @@
 var onAction = function(context){
-  log('Action: ' + context.action)
-  log(context)
+  if (context.action != 'Log.begin' && context.action != 'Log.finish') {
+    log('Action: ' + context.action)
+    log(context)
+  }
 }
